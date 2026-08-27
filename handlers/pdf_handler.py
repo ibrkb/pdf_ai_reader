@@ -38,14 +38,8 @@ async def pdf_handler(message:Message ):
     await message.answer(
         f"✅ PDF processed successfully!\n\n"
         f"📄 File: {document.file_name}\n"
+        f"File size{document.file_size}\n"
         f"📊 Extracted characters: {len(text)}\n\n"
         f"💬 You can now ask me questions about this PDF!"
     )
-
-
-
-
-
-
-
 
