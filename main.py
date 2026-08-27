@@ -8,9 +8,7 @@ from handlers.chat import router as chat_router
 async def main():
     bot = Bot(token=Bot_Token)
     dp = Dispatcher()
-
     
-
     dp.include_router(start_router)
     dp.include_router(pdf_router)
     dp.include_router(chat_router)
