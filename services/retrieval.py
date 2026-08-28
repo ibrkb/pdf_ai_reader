@@ -1,5 +1,3 @@
-
-
 def split_into_chunks(text: str, chunk_size: int = 500, overlap: int = 50) -> list[str]:
     chunks = []
     start = 0
